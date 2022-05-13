@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A027D2A-3002-4349-BF48-00502DDFFDFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{448302EA-70A1-4DF6-B468-EBDA3D4EFF50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "src\Identity\Identity.csproj", "{0CE77387-AB02-42B1-832D-ECEF8EA12092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer", "src\Customer\Customer.csproj", "{26445CFF-1AFF-45FE-BB1C-8351FBA15F4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{448302EA-70A1-4DF6-B468-EBDA3D4EFF50} = {5A027D2A-3002-4349-BF48-00502DDFFDFE}
+		{0CE77387-AB02-42B1-832D-ECEF8EA12092} = {5A027D2A-3002-4349-BF48-00502DDFFDFE}
+		{26445CFF-1AFF-45FE-BB1C-8351FBA15F4F} = {5A027D2A-3002-4349-BF48-00502DDFFDFE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{448302EA-70A1-4DF6-B468-EBDA3D4EFF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448302EA-70A1-4DF6-B468-EBDA3D4EFF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448302EA-70A1-4DF6-B468-EBDA3D4EFF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448302EA-70A1-4DF6-B468-EBDA3D4EFF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE77387-AB02-42B1-832D-ECEF8EA12092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE77387-AB02-42B1-832D-ECEF8EA12092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE77387-AB02-42B1-832D-ECEF8EA12092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE77387-AB02-42B1-832D-ECEF8EA12092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26445CFF-1AFF-45FE-BB1C-8351FBA15F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26445CFF-1AFF-45FE-BB1C-8351FBA15F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26445CFF-1AFF-45FE-BB1C-8351FBA15F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26445CFF-1AFF-45FE-BB1C-8351FBA15F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
